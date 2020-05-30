@@ -1,0 +1,67 @@
+*{
+	position-relative;
+	box-sizing: border-box;
+}
+body{
+	background-color:'orange';
+	font-size:16px;
+	color:#000000;
+	font-family: 'Oxygen',sans-serif;
+}
+#header-nav{
+	background-color:rgba(20,100,10,0.8);
+	border-radius:0;
+	border:0;
+}
+.navbar-header span#prev{
+	font-size: 1.5em;
+	padding-bottom:5px;
+	padding-left:5px;
+    text-shadow: 1px 1px 1px #222;
+    color:#000000;
+}
+
+
+#nav-list {
+	margin-top:20px;
+}
+#nav-list a{
+   color:rgba(0,0,255,1);
+   text-align:center;
+}
+#nav-list a:hover{
+    background:#E7E7E7;
+}
+#main{
+	text-align:center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid #61122ff;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: right;
+}
+#navbar-header a:focus{
+	background:#E7E7E7;
+}
+
+#chicken,#beef,#sushi{
+	background-color: rgba(200,0,0,0.2);
+	color:rgb(0,100,0);
+	margin-bottom:20px;
+    margin-top:20px;
+}
+#imp1,#imp2,#imp3{
+    text-align:center;
+	color:#000000;
+}
+
+p{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
